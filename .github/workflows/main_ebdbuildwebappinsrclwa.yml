@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'ebdbuildwebappinsrclwa'
           slot-name: 'Production'
-          package: .
+          package: release.zip
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6FA30767571C4A459CE2605A9FE926C0 }}
